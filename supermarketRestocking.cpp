@@ -59,7 +59,7 @@ int main() {
         {"Qtela", 75, 5000.0},
         {"Mentos", 20, 3000.0},
         {"Oreo", 40, 8000.0},
-        {"Bimoli 2L", , 35000.0},
+        {"Bimoli 2L", 40 , 35000.0},
         {"Gulaku 1kg", 30, 15000.0},
         {"Good Day Cappucino 10 sachet", 30, 19000.0},
         {"SariWangi Teh Celup Hitam Asli isi 30", 20, 8400.0},
