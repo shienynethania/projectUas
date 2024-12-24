@@ -54,11 +54,17 @@ void restockBarang(Barang barangList[], int& jumlahBarang, const string& namaBar
 
 int main() {
     Barang barangList[10] = {
-        {"Teh Botol", 50, 4000.0},
-        {"Indomie", 100, 3000.0},
-        {"Qtela", 75, 5000.0}
+        {"Teh Botol original", 50, 4000.0},
+        {"Indomie goreng", 100, 3000.0},
+        {"Qtela", 75, 5000.0},
+        {"Mentos", 20, 3000.0},
+        {"Oreo", 40, 8000.0},
+        {"Bimoli 2L", , 35000.0},
+        {"Gulaku 1kg", 30, 15000.0},
+        {"Good Day Cappucino 10 sachet", 30, 19000.0},
+        {"SariWangi Teh Celup Hitam Asli isi 30", 20, 8400.0},
     };
-    int jumlahBarang = 3;  
+    int jumlahBarang = 9;  
 
     int pilihan, jumlahRestock;
     double hargaBarang;
