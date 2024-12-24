@@ -55,9 +55,10 @@ void restockBarang(Barang barangList[], int& jumlahBarang, const string& namaBar
 int main() {
     Barang barangList[10] = {
         {"Teh Botol", 50, 4000.0},
-        {"Indomie", 100, 3000.0}
+        {"Indomie", 100, 3000.0},
+        {"Qtela", 75, 5000.0}
     };
-    int jumlahBarang = 2;  
+    int jumlahBarang = 3;  
 
     int pilihan, jumlahRestock;
     double hargaBarang;
